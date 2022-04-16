@@ -10,7 +10,7 @@ const showResult = () => {
 }
 
 const runAway = () => {
-    const marginnum = Math.floor(Math.random() * 150)
+    const marginnum = Math.floor(Math.random() * 200)
     console.log(marginnum)
     nobtn.style.margin = `${marginnum}px`;
 
